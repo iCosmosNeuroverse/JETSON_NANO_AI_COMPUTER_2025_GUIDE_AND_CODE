@@ -46,7 +46,7 @@ HAVE_RGB_LED = False
 Before next command, TEST YOUR NANO CAMERA FIRST, a window should pop up showing feed based on your onboard jetson camera:
 
 ```
-gst-launch-1.0 nvarguscamerasrc ! 'video/x-raw(memory:NVMM), width=1280, height=720, framerate=30/1' ! nvvidconv ! 'video/x-raw, format=BGRx' ! videoconvert ! xvimagesink
+>>> gst-launch-1.0 nvarguscamerasrc ! 'video/x-raw(memory:NVMM), width=1280, height=720, framerate=30/1' ! nvvidconv ! 'video/x-raw, format=BGRx' ! videoconvert ! xvimagesink
 ```
 
 You can talso test ip cam by invoking my csi_cam_test.py file. >>> python csi_cam_test.py
@@ -64,7 +64,7 @@ Invoke my modified manage_.py file if you don't have nano CSI camera, and you ha
 You can test ip cam by invoking my ip_cam_test.py file. >>> python ip_cam_test.py
 
 ```
->>>python manage.py drive --ip_cam_url="<Your phone ip cam url or other device ip cam url>"
+>>> python manage.py drive --ip_cam_url="<Your phone ip cam url or other device ip cam url>"
 ```
 
 Eg:
