@@ -7,14 +7,14 @@ Side note: This nano unit I cherish. I have had this Jetson nano unit for about 
 
 
 
-ON A WINDOWS HOST OR LINUX HOST MACHINE:
+# ON A WINDOWS HOST OR LINUX HOST MACHINE:
 
 1. Download FEI's donkey car/jetcar SD prebuilt image with all dependencies:  https://peter115342.github.io/FEI_jetracer/docs/FEIcar/FEIcar_installation/ 
 2. Remove sd card from nano.
 3. Use adaptor, plug in host computer, then format sd card with sd card formatter.4. Burn image with Balena Echer.
 
 
-ON NANO:
+# ON NANO:
 
 
 4. [Install swap file](https://jkjung-avt.github.io/setting-up-nano/) to nano to avoid memory issues. An example of memory issue is your on board CSI camera working once, but failing afterwords.
@@ -76,19 +76,37 @@ Eg:
 Acquire donkey pretrained models from https://github.com/autorope/donkey_datasets and place them in mycar/models folder. Integrate when asked. Alter self_drive.py MODEL_PATH according to any model.
 
 Use pretrained pilot ai for self driving inference with external ipcamera via phone from playstore like IPWebcam on android  or onboard CSICamera
-#Example invoke>>> python self_drive.py "http://192.168.100.192:8080/video" "models/pilot_21-08-12_4.h5" 
-#Example invoke>>> python self_drive.py "models/pilot_21-08-12_4.h5" (uses csi onboard instead of external ip android cam)
+#Example invoke
 
+```
+>>> python self_drive.py "http://192.168.100.192:8080/video" "models/pilot_21-08-12_4.h5"
+```
+
+#Example invoke
+
+```
+>>> python self_drive.py "models/pilot_21-08-12_4.h5" (uses csi onboard instead of external ip android cam)
+```
 
 
 Use non ml for self driving inference with external ipcamera via phone from playstore like IPWebcam on android  or onboard CSICamera
-#Example invoke>>> python self_drive_basic.py "http://192.168.100.192:8080/video" "models/pilot_21-08-12_4.h5" (External IP camera android phone etc feed)
-#Example invoke>>> python self_drive_basic.py "models/pilot_21-08-12_4.h5" (uses csi onboard instead of external ip android cam)
+#Example invoke
 
+```
+>>> python self_drive_basic.py "http://192.168.100.192:8080/video" "models/pilot_21-08-12_4.h5" (External IP camera android phone etc feed)
+```
+
+#Example invoke
+
+```
+>>> python self_drive_basic.py "models/pilot_21-08-12_4.h5" (uses csi onboard instead of external ip android cam)
+```
 
 Note your nano ip. You can navigate to it on host  computer and drive the nano by ui controls if you had joystick. May be possible to use a separate mobile. Eg my nano ip:
-http://192.168.100.197:8887
 
+```
+http://192.168.100.197:8887
+```
 
 
 
