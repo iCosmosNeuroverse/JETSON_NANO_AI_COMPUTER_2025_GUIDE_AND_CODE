@@ -1,6 +1,6 @@
 import cv2
 
-url = "http://192.168.100.192:8080/video"  
+url = "http://192.168.100.192:8080/video"  #Example, supply your own phone ip here, didn't parametrize the file unlike self_drive.py, self_drive_basic.py and manage_.py which I did parametrize to allow runtime argument.
 
 cap = cv2.VideoCapture(url)
 
