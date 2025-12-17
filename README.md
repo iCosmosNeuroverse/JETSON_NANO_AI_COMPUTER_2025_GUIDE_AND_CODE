@@ -11,6 +11,8 @@ Use command below to see how much ram your system has. If like mine, your nano h
 cat /proc/meminfo | head
 ```
 
+_Side note_ In case you bricked your jetson nano somehow via software, however particularly without physical damage, [follow my little guide to unbrick it](https://www.instagram.com/p/DSGw4dyDi2q/).
+
 
 # ON A WINDOWS HOST OR LINUX HOST MACHINE:
 
