@@ -116,6 +116,7 @@ donkey createcar --path ~/jamaica_ai_car
 Note, before invoking drive on the nano, if you just have a camera and no servo /steering/throttle pwm yet attached to NANO, you can do a dev test by disabling the following /home/jamaica_ai_car/myconfig.py. Add the following lines to the top of the file:
 
 ```
+SHOW_PILOT_STATS = True
 USE_CONSTANT_THROTTLE = True
 THROTTLE = 0.25
 DRIVE_TRAIN_TYPE="mock"
