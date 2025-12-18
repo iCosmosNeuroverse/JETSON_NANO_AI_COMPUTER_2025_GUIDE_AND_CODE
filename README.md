@@ -76,7 +76,7 @@ Note we won't use Fei's manage.py mod because it includes yolo detection and has
 You will instead create a new donkeycar app with command below then navigate to the folder. 
 
 ```
-donkey createcar --path ~/mycar
+donkey createcar --path ~/<carprojectname>
 ```
 
 Example:
@@ -87,7 +87,7 @@ donkey createcar --path ~/jamaica_ai_car
 
 # 6. Copy my python files manage.py, manage_ByIpCam.py, csi_cam_test.py, and  ip_cam_test.py to the "jamaica_ai_car" or your directory if you made one by another name.
 
-Note, before invoking drive on the nano, if you just have a camera and no servo /steering/throttle pwm yet attached to NANO, you can do a dev test by disabling the following /home/mycar/myconfig.py. Add the following lines to the top of the file:
+Note, before invoking drive on the nano, if you just have a camera and no servo /steering/throttle pwm yet attached to NANO, you can do a dev test by disabling the following /home/jamaica_ai_car/myconfig.py. Add the following lines to the top of the file:
 
 ```
 USE_CONSTANT_THROTTLE = True
@@ -113,7 +113,7 @@ You can also test ip cam by invoking my csi_cam_test.py file. >>> python csi_cam
 
 7. Time to invoke self driving inference:
    
-[Acquire donkey pretrained models](https://github.com/autorope/donkey_datasets) from circuit_launch_20210716/models and place them in mycar/models folder. Integrate when asked. 
+[Acquire donkey pretrained models](https://github.com/autorope/donkey_datasets) from circuit_launch_20210716/models and place them in jamaica_ai_car/models folder. Integrate when asked. 
 
 Use pretrained pilot ai for self driving inference with external ipcamera via phone from playstore like IPWebcam on android  or onboard CSICamera
 
