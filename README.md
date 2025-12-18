@@ -194,7 +194,8 @@ Recording Change = False
 Setting Recording = False
 ```
 
-For eg you will navigate to  192.168.100.197:8087 on your Android phone browser for eg and there you will see your live Jetson nano I computer donkeycar instance. 
+For eg you will navigate to something looking like 192.168.100.197:8087 on your Android phone browser for eg and there you will see your live Jetson nano I computer donkeycar instance. (run >>> ifconfig on your nano, and grab the ip. Don't grab the broadcast ip) 
+
 Here you have the option of driving the nano as a rc car to collect images and write them to tubs for training granted if it was connected to wheels and servos or enable it to drive itself based on a loaded pilot.
 
 In my case I test here before connecting nano to my full scale real life hypercar prototype. In other caes people use this to test before connecting to their small scale rc car.
