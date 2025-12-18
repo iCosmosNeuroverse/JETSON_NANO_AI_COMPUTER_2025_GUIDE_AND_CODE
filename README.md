@@ -227,6 +227,8 @@ Useful before attaching wheels and steering to nano.
 
 # For convinent testing it may be helpful to acquire a long MPI/SCI camera cable, and swap out the short default one that ships with jetson nano kit.
 
+You can buy the cable here: https://www.ebay.com/itm/116151757885
+
 In my case I need my camera wire to be long enough to stretch along some length of the full scale hypercar, so the camera can view the road ahead.
 
 Even before being attached to the car, it's now conveneient to to Screen based perception testing; i.e. the nano unit can be off to the side on a table while I can hold the mpi camera comfortably while focusing it on a screen with a road being traversed.
