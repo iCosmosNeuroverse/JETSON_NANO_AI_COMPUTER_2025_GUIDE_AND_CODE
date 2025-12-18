@@ -87,7 +87,7 @@ donkey createcar --path ~/jamaica_ai_car
 
 # 6. Copy my python files manage.py, manage_ByIpCam.py, csi_cam_test.py, and  ip_cam_test.py to the "jamaica_ai_car" or your directory if you made one by another name.
 
-Note, before invoking drive on the nano, if you just have a camera and no servo /steering/throttle pwm yet attached to NANO, you can do a dev test by disabling the following /home/mycar/myconfig.py. Add the following lines to the top of the file after "YOLO_NMS_THRESHOLD = 0.4" and before the commented out section. Ensure they aren't commented out:
+Note, before invoking drive on the nano, if you just have a camera and no servo /steering/throttle pwm yet attached to NANO, you can do a dev test by disabling the following /home/mycar/myconfig.py. Add the following lines to the top of the file:
 
 ```
 USE_CONSTANT_THROTTLE = True
