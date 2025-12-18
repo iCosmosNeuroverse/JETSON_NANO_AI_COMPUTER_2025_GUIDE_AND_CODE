@@ -1,7 +1,24 @@
+
+
+
 # JETSON_NANO_AI_COMPUTER_2025_GUIDE & CODE FOR SELF DRIVING
 
 Side note: This nano unit I cherish. I have had this Jetson nano unit for about 7 years now. It's the same unit that ended up getting me featured by Nvidia for pothole detection project that I had posted. NVIDIA still remains world's most powerful AI driver a company worth over 3 trillion. Go to [Nvidia Jetson feature page](https://developer.nvidia.com/embedded/community/jetson-projects) and search for "pothole" then select smart pothole detector project that pops up in the results, or check out the [short link](https://developer.nvidia.com/embedded/community/jetson-projects/ai_pothole_detector).
 
+
+This will be a part of my self driving full scale hypercar project, for [icognium](https://icognium.github.io/).
+
+## 3d model (I did modeled in Blender and Rhino3d):
+
+![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/_DIO_LUCCIOLA_SIDE TOP.png)
+
+## Hand Crafted real, full scale hypercar body and chassis. 
+
+~~> Don't mind the blue wrap/rough exterior, all will a white lacebark inspired material, like seen on the roof:
+
+![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FULL_SCALE_GIF_1.png)
+
+![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FULL_SCALE_GIF_1b.png)
 
 # Guide & Code to get Jetson Nano B01 4GB up and running Self Driving using Android Phone as camera (incase your CSI camera port is damaged), or via the same CSI Camera if on board camera is okay. with Jetson nano Ai computer unit as the brain
 
@@ -177,7 +194,10 @@ In my case I test here before connecting nano to my full scale real life hyperca
 #My nano is running browser and also showing the live stream of what the csi mpi camera is seeing, which is the screen itself that nano is connected to:
 
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/cosmos_jetson_nano_ip_connection_capture_2.png)
- 
+
+ .
+ .
+ 
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/cosmos_jetson_nano_ip_connection_capture.png)
 
 
@@ -185,13 +205,11 @@ In my case I test here before connecting nano to my full scale real life hyperca
 
 You can use nano itself to run the video while focusing it's own camera on the clip though that could be costly memory wise. Maybe download the clip 240 to 360p and run it as a native video instead of on chrome instance.
 
-This way you'd have what I call "augmented and partially realistic self driving" test where nano is seeing the road and responding by sending out it's output signals though not to PWM modules to servos and wheels.
+This way one may call "Screen-based perception testing" or "Vision in the loop" testing where nano is seeing the road and responding by sending out it's output signals though not to PWM modules to servos and wheels.
 
-Could be useful before attaching wheels and steering to nano.
+Useful before attaching wheels and steering to nano.
 
 [https://youtu.be/Nhg4BjgkWGQ](https://youtu.be/Nhg4BjgkWGQ)
-
-This will be a part of my self driving full scale hypercar project, for icognium[](https://icognium.github.io/).
 
 
 
