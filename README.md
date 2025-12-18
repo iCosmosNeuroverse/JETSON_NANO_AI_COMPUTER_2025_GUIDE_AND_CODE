@@ -225,7 +225,7 @@ Useful before attaching wheels and steering to nano.
 
 [https://youtu.be/Nhg4BjgkWGQ](https://youtu.be/Nhg4BjgkWGQ)
 
-# For convinent testing it may be helpful to acquire a long MPI/SCI camera cable, and swap out the short default one that ships with jetson nano kit.
+# For convinent testing it may be helpful to acquire a long MPI/CSI camera cable, and swap out the short default one that ships with jetson nano kit.
 
 You can buy the cable here: https://www.ebay.com/itm/116151757885
 
