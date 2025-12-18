@@ -160,7 +160,7 @@ Use non ml for self driving inference with external ipcamera via phone from play
 >>> python self_drive_basic.py "models/pilot_21-08-12_4.h5" (uses csi onboard instead of external ip android cam)
 ```
 
-Note your nano ip. You can navigate to it on host  computer and drive the nano by ui controls if you had joystick. May be possible to use a separate mobile. Eg my nano ip:
+Note your nano ip. You can navigate to it on host  computer and drive the nano by ui controls if you had joystick. May be possible to use a separate mobile. Eg my nano ip. Use ifconfig on your nano, and do not choose the broadcast item. Yours should look like mine:
 
 ```
 http://192.168.100.197:8887
