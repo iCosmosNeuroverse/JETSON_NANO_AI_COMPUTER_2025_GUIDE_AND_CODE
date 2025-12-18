@@ -167,7 +167,7 @@ http://192.168.100.197:8887
 ```
 
 
-# An example road clip you can use to simulate jetson travelling , by focusing camera on a computer screen playing the clip. 
+# An example road clip you can use to "partially simulate" jetson travelling in reality while using a virtual screen of road being traversed, before it's camera, by focusing camera on a computer screen playing the clip. 
 
 You can use nano itself to run the video while focusing it's own camera on the clip though that could be costly memory wise. Maybe download the clip 240 to 360p and run it as a native video instead of on chrome instance.
 
