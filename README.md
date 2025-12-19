@@ -44,13 +44,14 @@ _Side note: In case you bricked your jetson nano somehow via software, however p
 
 1. Download FEI's donkey car/jetcar SD card [prebuilt image](https://peter115342.github.io/FEI_jetracer/docs/FEIcar/FEIcar_installation/) with all dependencies. This repo doesn't immediately provide self driving, as it showcases an object detection demo driven by a human controlling a jetson nano enabled rc car. However, the environment is crucially well established to facilitate self driving, the same I will eventually apply to my full scale hypercar prototype.
 2. Remove sd card from nano.
-3. Use adaptor, plug in host computer, then format sd card with sd card formatter.4. Burn image with Balena Echer.
+3. Use adaptor, plug in host computer, then format sd card with sd card formatter.
+4. Burn image with Balena Echer.
 
 
 # ON NANO:
 
 
-4. [Install swap file](https://jkjung-avt.github.io/setting-up-nano/) to nano to avoid memory issues. An example of memory issue is your on board CSI camera working once, but failing afterwords. Note 8gb file in /mnt/. Also note your total free space by observing Ubuntu's "Other locations" folder and "Computer", which are virtual locations to look on data about your root folder size.
+5. [Install swap file](https://jkjung-avt.github.io/setting-up-nano/) to nano to avoid memory issues. An example of memory issue is your on board CSI camera working once, but failing afterwords. Note 8gb file in /mnt/. Also note your total free space by observing Ubuntu's "Other locations" folder and "Computer", which are virtual locations to look on data about your root folder size.
 
 Confirm swap with 
 
@@ -91,7 +92,7 @@ mk command to make swap file > chmod to secure swap file > make it permanent if 
 ```
 
 
-5. Time to run some demos. Open terminal and run commands:
+6. Time to run some demos. Open terminal and run commands:
 
 ```
 >>> source env/bin/activate
@@ -111,7 +112,7 @@ Example:
 donkey createcar --path ~/jamaica_ai_car
 ```
 
-# 6. Copy my python files manage.py, manage_ByIpCam.py, csi_cam_test.py, and  ip_cam_test.py to the "jamaica_ai_car" or your directory if you made one by another name.
+# 7. Copy my python files manage.py, manage_ByIpCam.py, csi_cam_test.py, and  ip_cam_test.py to the "jamaica_ai_car" or your directory if you made one by another name.
 
 Note, before invoking drive on the nano, if you just have a camera and no servo /steering/throttle pwm yet attached to NANO, you can do a dev test by disabling the following /home/jamaica_ai_car/myconfig.py. Add the following lines to the top of the file:
 
@@ -138,7 +139,7 @@ Before next command, TEST YOUR NANO CAMERA FIRST, a window should pop up showing
 
 You can also test ip cam by invoking my csi_cam_test.py file. >>> python csi_cam_test.py
 
-7. Time to invoke self driving inference:
+8. Time to invoke self driving inference:
    
 [Acquire donkey pretrained models](https://github.com/autorope/donkey_datasets) from circuit_launch_20210716/models and place them in jamaica_ai_car/models folder. Integrate when asked. 
 
@@ -158,7 +159,7 @@ use >>> python csi_cam_test.py and >>> python ip_cam_test.py to test for csi or 
 ```
 #Also, crucially, copy keras.py to a FEIcar/donkeycar/parts/ and replaced when asked. _I modified donkeycar file to accommodate for missing CSI camera frames that cause crash during stream. manage.py was also modified to accommodate as well as do things like add IPcamera support, and crucially enable loading of pretrained model for self driving. I used the onboard CSI nano camera, but coded the IPcamera as an alternative to enable external android phone cam to be used as camera source._
 
-8. Navigate:
+9. Navigate:
 
 ```
 cd <your new donkeycar project name>
@@ -168,7 +169,7 @@ Example
 cd jamaica_ai_car
 ```
 
-#9. Invoke manage.py with a trt model which is lightweight and faster than the h5 models from the dataset zoo.
+#10. Invoke manage.py with a trt model which is lightweight and faster than the h5 models from the dataset zoo.
 This is what facilitates self driving!
 
 ```
