@@ -48,14 +48,9 @@ logging.basicConfig(level=logging.INFO)
 import time
 
 class PilotDebug:
-    def run(self, angle, throttle, image):
+    def run(self, angle, throttle):
         print(f"[PilotDebug] angle={angle:.3f}, throttle={throttle:.3f}")
-        #img = image.copy()
-        #cv2.putText(img, f"A:{angle:.2f} T:{throttle:.2f}", (10,20),cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,0), 1)
-        #cv2.imshow("PilotDebug Feed", img)
-        #cv2.waitKey(1)
         return angle, throttle
-
 
 def drive(cfg, model_path=None, use_joystick=False, model_type=None,
           camera_type='single', meta=[]):
@@ -121,14 +116,14 @@ def drive(cfg, model_path=None, use_joystick=False, model_type=None,
             break
         time.sleep(0.05)
 
-    from donkeycar.parts.keras import KerasLinear
-    pilot = KerasLinear()
+    from donkeycar.parts.keras import KerasCategorical
+    pilot = KerasCategorical()
     pilot.load(model_path)
     V.add(pilot,inputs=['image'],outputs=['angle', 'throttle'])
 
     # Add debug part
-    #debug_part = PilotDebug()
-    #V.add(debug_part, inputs=['angle','throttle'], outputs=['angle','throttle'])
+    debug_part = PilotDebug()
+    V.add(debug_part, inputs=['angle','throttle'], outputs=['angle','throttle'])
 
     # add lidar
     if cfg.USE_LIDAR:
@@ -172,7 +167,7 @@ def drive(cfg, model_path=None, use_joystick=False, model_type=None,
     # For example: adding a button handler is just adding a part with a run_condition
     # set to the button's name, so it runs when button is pressed.
     #
-    V.add(Lambda(lambda v: print(f"web/w1 clicked")), inputs=["web/w1"], run_condition="web/w1")
+    V.add(Lambda(lambda v: print(f"wow/w1 clicked")), inputs=["web/w1"], run_condition="web/w1")
     V.add(Lambda(lambda v: print(f"web/w2 clicked")), inputs=["web/w2"], run_condition="web/w2")
     V.add(Lambda(lambda v: print(f"web/w3 clicked")), inputs=["web/w3"], run_condition="web/w3")
     V.add(Lambda(lambda v: print(f"web/w4 clicked")), inputs=["web/w4"], run_condition="web/w4")
