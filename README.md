@@ -216,10 +216,23 @@ In my case I test here before connecting nano to my full scale real life hyperca
 
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/cosmos_jetson_nano_ip_connection_capture_2.png)
 
+---Note: When you connect to jetson nano unit using another device with internet access, once you switch from User Mode to Auto Steer notice how laggy the camera feed will become. This is 
+a clear sign that nano has began to do inference based on the loaded .h5 model. 
+
+
  .
  .
  
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/cosmos_jetson_nano_ip_connection_capture.png)
+
+.
+.
+
+![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/cosmos_jetson_nano_ip_connection_capture_3.png)
+
+~ _I used auto steer mode above, enabling steering, while throttle is fixed.
+
+
 
 Note: Do not hit "Start vehicle button on ui" as the vehicle should laready be running given "starting vehicle at <value> hz" in terminal.
 
@@ -252,6 +265,11 @@ In my case I need my camera wire to be long enough to stretch along some length 
 
 Even before being attached to the car, it's now convenient to do Screen based perception testing; i.e. the nano unit can be off to the side on a table while I can hold the mpi camera comfortably while focusing it on a screen with a road being traversed.
 
+
+# A quick little hack incase your CSI camera secure latch is damaged and missing:
+
+You can find a medicine cartridge of pills, cut two rectangular pieces of the container which are thin, stack them together, then use tape to wrap creating a handle you can then bend, leaving a portion of the stacked pieces exposed.
+Then use those to secure the CSI camera, by touching atleast one set of vertices then gently pushing dowards using the thumb on the handle bend.
 
 
 
