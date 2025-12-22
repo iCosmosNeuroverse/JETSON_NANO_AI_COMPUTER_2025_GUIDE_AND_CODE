@@ -30,12 +30,8 @@ except:
 
 #CosmosModification
 class PilotDebug:
-    def run(self, angle, throttle, image):
+    def run(self, angle, throttle):
         print(f"[PilotDebug] angle={angle:.3f}, throttle={throttle:.3f}")
-        #img = image.copy()
-        #cv2.putText(img, f"A:{angle:.2f} T:{throttle:.2f}", (10,20),cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,0), 1)
-        #cv2.imshow("PilotDebug Feed", img)
-        #cv2.waitKey(1)
         return angle, throttle
 
 import donkeycar as dk
@@ -59,14 +55,9 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 import time
 
-
 class PilotDebug:
-    def run(self, angle, throttle, image):
+    def run(self, angle, throttle):
         print(f"[PilotDebug] angle={angle:.3f}, throttle={throttle:.3f}")
-        img = image.copy()
-        cv2.putText(img, f"A:{angle:.2f} T:{throttle:.2f}", (10,20),cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0,255,0), 1)
-        #cv2.imshow("PilotDebug Feed", img)
-        #cv2.waitKey(1)
         return angle, throttle
 
 
@@ -136,14 +127,16 @@ def drive(cfg, model_path=None, use_joystick=False, model_type=None,
         time.sleep(0.05)
 
 
-    from donkeycar.parts.keras import KerasLinear
-    pilot = KerasLinear()
+    from donkeycar.parts.keras import KerasCategorical
+    pilot = KerasCategorical()
     pilot.load(model_path)
     V.add(pilot,inputs=['image'],outputs=['angle', 'throttle'])
 
+
+
     # Add debug part
-    debug_part = PilotDebug()
-    V.add(debug_part, inputs=['angle','throttle'], outputs=['angle','throttle'])
+    #debug_part = PilotDebug()
+    #V.add(debug_part, inputs=['angle','throttle'], outputs=['angle','throttle'])
     #End CosmosModification
 
     # add lidar
