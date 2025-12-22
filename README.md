@@ -240,11 +240,15 @@ Note: If you don't see a camera feed in the ui, or see an error, please ensure t
 
 # If process closed improperly check if port is still open, to avoid OSAddress usage error.
 
+```
 >>> sudo netstat -tulpn | grep 8887
+```
 
 kill all processes using the port
 
+```
 >>> sudo fuser -k 8887/tcp
+```
 
 
 # An example road clip you can use to "partially simulate" the real jetson unit travelling in reality while using a virtual screen of road being traversed, before it's camera, by focusing camera on a computer screen playing the clip. 
