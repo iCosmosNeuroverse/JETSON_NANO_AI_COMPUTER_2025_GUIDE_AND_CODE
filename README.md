@@ -354,7 +354,7 @@ pred=model.predict(dummy_frames_e)
 ```
 
 
-# ..and thereafter, pipeline in manage.py of donkeycar kit would need to change to accomodate 3DCNN KerasCategorical input range.
+# ..and thereafter, on your jetson nano ai computer pipeline in manage.py of donkeycar kit would need to change to accomodate 3DCNN KerasCategorical input range.
 Instead of consuming single images, modify your manage.py to be similar to muosvr's [manage_3DCNN.py](https://github.com/Muosvr/mycar/blob/master/manage_3DCNN.py) class (before defining and loading your KerasCategorical pilot):
 
 ```
