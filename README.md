@@ -279,7 +279,7 @@ Then use those to secure the CSI camera, by touching atleast one set of vertices
 
 # Additional pretrained models to try
 
-Try [muosvr's pretrained models](https://github.com/Muosvr/mycar), but first you need to rename the files in model dir.
+Try [muosvr's pretrained models](https://github.com/Muosvr/mycar), and optionally, you can rename the no extention files in model dir.
 When investigating the .File files, there's hdf5 in the header, indicating it's indeed h5 files that were probbaly renamed to .File when he uploaded the repo.
 
 Command to analyze file header:
@@ -301,7 +301,7 @@ Result containing HDf5 data proving h5 origin which donkeycar/tf can supposedly 
 ```
 
 
-Navigate to models folder in muosvr's downloaded repo, then run command below:
+Navigate to models folder in muosvr's downloaded repo, then run command below if you want to rename, though that's optional, as keras typically check content not names:
 
 ```
 Get-ChildItem -File | Where-Object { $_.Extension -eq "" } | ForEach-Object {
