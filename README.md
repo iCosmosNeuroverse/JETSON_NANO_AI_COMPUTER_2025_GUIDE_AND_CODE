@@ -352,23 +352,20 @@ import numpy as np
 # Standard CNN: Single frame
 dummy_frame1 = np.zeros((1,120, 160, 3), dtype=np.float32)
 model1 = keras.models.load_model("models/mypilot") #if you didn't rename as I stated above!
-pred=model.predict(dummy_frame1)
+pred=model1.predict(dummy_frame1)
 
 
 
 # 3DCNN: Stack 3 frames as 3DCNNS need multiple frames (particularly 3, given 3D nature)
 
 dummy_frame2 = np.zeros((120, 160, 3), dtype=np.float32)
-model = keras.models.load_model("models/mypilot")
-pred=model.predict(dummy_frame)
-
 dummy_frames = np.stack([dummy_frame2, dummy_frame2, dummy_frame2], axis=0)
 
 # Add batch dimension
 dummy_frames_e = np.expand_dims(dummy_frames, axis=0)
 
 model2 = keras.models.load_model("models/speedup3dcnn/pilot_3Dspeedup")
-pred=model.predict(dummy_frames_e)
+pred=model2.predict(dummy_frames_e)
 ```
 
 
