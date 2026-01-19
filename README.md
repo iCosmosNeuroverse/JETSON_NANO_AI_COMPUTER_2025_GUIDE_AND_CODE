@@ -26,9 +26,11 @@ This will be a part of my self driving big/full scale hypercar project, for [ico
 
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FULL_SCALE_GIF_2.gif)
 
-.
-
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FULL_SCALE_GIF_3.gif)
+
+Latest Full Scale Vehicle:
+
+![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FULL_SCALE_GIF_4.gif)
 
 Dio Lucciola, my handcrafted hypercar prototype, with steel assembly hubs, rims, control arms and axels, and metal cage structure, but wooden floor; symbolizing land of wood and water, and weight savings for this initial prototype instead of traditional heavier metal floor, and hommage to Joe Harmon's fully fiberglass [supercar 2015, "Splinter"](https://www.reddit.com/r/cars/comments/3vgvs6/a_wooden_supercar_named_splinter_has_been_made/).
 
