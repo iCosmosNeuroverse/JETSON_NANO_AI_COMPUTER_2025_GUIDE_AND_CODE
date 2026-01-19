@@ -1,6 +1,5 @@
 
 
-
 # JETSON_NANO_AI_COMPUTER_2025_GUIDE & CODE FOR SELF DRIVING (TEST WITHOUT SERVOS ATTACHED TO NANO)
 
 Side note: This nano unit I cherish. I have had this Jetson nano unit for about 7 years now. It's the same unit that ended up getting me featured by Nvidia for pothole detection project that I had posted. NVIDIA still remains world's most powerful AI driver a company worth over 3 trillion. Go to [Nvidia Jetson feature page](https://developer.nvidia.com/embedded/community/jetson-projects) and search for "pothole" then select smart pothole detector project that pops up in the results, or check out the [short link](https://developer.nvidia.com/embedded/community/jetson-projects/ai_pothole_detector).
@@ -17,6 +16,9 @@ This will be a part of my self driving big/full scale hypercar project, for [ico
 ~~> Don't mind the blue wrap/rough exterior, all will a white lacebark inspired material, like seen on the roof (note the roof itself will be adjusted too):
 
 # See [build log](https://medium.com/@theomniautomobil/how-to-create-a-real-life-full-scale-hypercar-prototype-53901b355967).
+
+
+![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FULL_SCALE_GIF_4.gif)
 
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FULL_SCALE_GIF_1_GIF.gif)
 .
