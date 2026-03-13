@@ -9,7 +9,7 @@ Side note: This nano unit I cherish. I have had this Jetson nano unit for about 
 
 This will be a part of my self driving big/full scale hypercar project, for [icognium](https://icognium.github.io/). This same guide can be used for small scale RC projects.
 
-## 3d model (I did modeled in Blender and Rhino3d):
+## 3d model (I modeled in Blender and Rhino3d):
 
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FORMULAZIONE_2.png)
 
