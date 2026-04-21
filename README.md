@@ -1,4 +1,4 @@
-![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_GLEANER_SCREENSHOT_.png)
+![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_GLEANER_SCREENSHOT.png)
 https://jamaica-gleaner.com/article/news/20250409/bold-step-towards-future-ready-education
 
 Having [a tiered curriculum](https://github.com/icognium/icognium), based on appropriate [complexity levels](https://www.youtube.com/watch?v=AmhZ7OUvyPA), we aim to establish accross schools in JA, Universities, High Schools, Primary Schools and beyond.
@@ -16,6 +16,12 @@ This will be a part of my self driving big/full scale hypercar project, for [ico
 ## 3d model (I modeled in Blender and Rhino3d):
 
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FORMULAZIONE_2.png)
+
+# Extended version with Lignum vitae etc inspired wing set:
+
+![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FORMULAZIONE_3.png)
+
+
 
 ## I then hand crafted real, [full scale hypercar body and chassis](https://www.youtube.com/watch?v=j-Htezn7wf8). (It's quite wide, as seen):
 
