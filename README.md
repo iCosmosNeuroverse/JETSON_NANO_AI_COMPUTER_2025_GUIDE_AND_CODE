@@ -2,7 +2,7 @@
 https://jamaica-gleaner.com/article/news/20250409/bold-step-towards-future-ready-education
 
 Having [a tiered curriculum](https://github.com/icognium/icognium), based on appropriate [complexity levels](https://www.youtube.com/watch?v=AmhZ7OUvyPA), we aim to establish accross schools in JA, Universities, High Schools, Primary Schools and beyond.
-See [Roadmap for core prototype](https://www.youtube.com/watch?v=qt5J7xfK9cM). Beyond Dio, we delve into developing niche physical products imbued with Ai, including books, as well as software only solutions. We delve into [cost benefit analysis](https://drive.google.com/file/d/12voT23aBXrt6_Vj6pZz3kmjZvo7g5e4y/view?usp=sharing), and also [iCognium Research/Practical approach](https://drive.google.com/file/d/18uOMA4zAs5J15wEcmpWL5BHtf2R5cyP6/view?usp=sharing), and by extension, [compliance](https://drive.google.com/file/d/1RqOQ0xNJ3IQRYIyB6yjGNJBfjy4R_6zd/view?usp=sharing).
+See [Roadmap for core prototype](https://www.youtube.com/watch?v=qt5J7xfK9cM). Beyond Dio, we delve into developing niche physical products imbued with Ai, including books, as well as software only solutions. We delve into [cost benefit analysis](https://drive.google.com/file/d/12voT23aBXrt6_Vj6pZz3kmjZvo7g5e4y/view?usp=sharing), and also [iCognium Research/Practical approach](https://drive.google.com/file/d/18uOMA4zAs5J15wEcmpWL5BHtf2R5cyP6/view?usp=sharing), and by extension, [compliance, starting with LLMS, thought iCognium self driving car basis does not use LLMS](https://drive.google.com/file/d/1RqOQ0xNJ3IQRYIyB6yjGNJBfjy4R_6zd/view?usp=sharing).
 
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_CODE_SNIPPET.png)
 
