@@ -1,4 +1,8 @@
+![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_GLEANER_SCREENSHOT_.png)
+https://jamaica-gleaner.com/article/news/20250409/bold-step-towards-future-ready-education
 
+Having a tiered curriculum, based on appropriate complexity levels, we aim to establish accross schools in JA, Universities, High Schools, Primary Schools and beyond.
+See [Roadmap for core prototype](https://www.youtube.com/watch?v=qt5J7xfK9cM).
 
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FULL_SCALE_GIF_5_.gif)
 
