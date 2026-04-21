@@ -17,11 +17,26 @@ This will be a part of my self driving big/full scale hypercar project, for [ico
 
 ~~> Don't mind the blue wrap/rough exterior, all will a white lacebark inspired material, like seen on the roof (note the roof itself will be adjusted too):
 
-# See [build log](https://medium.com/@theomniautomobil/how-to-create-a-real-life-full-scale-hypercar-prototype-53901b355967).
+# Earlier Full Scale Build Iteration [build log](https://medium.com/@theomniautomobil/how-to-create-a-real-life-full-scale-hypercar-prototype-53901b355967).
 
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FULL_SCALE_GIF_4.gif)
 
+# LATEST Full Scale Build Iteration
+
+
+
 Dio Lucciola, my handcrafted hypercar prototype, with steel assembly hubs, rims, control arms and axels, and metal cage structure, but wooden floor; symbolizing land of wood and water, and weight savings for this initial prototype instead of traditional heavier metal floor, and hommage to Joe Harmon's fully fiberglass [supercar 2015, "Splinter"](https://www.reddit.com/r/cars/comments/3vgvs6/a_wooden_supercar_named_splinter_has_been_made/).
+
+# Initial Modular Chassis I designed, consisting of a simple beam/plane system, planes form the floors, while beams form the modular structural foundation which support the metal roll cage as well as support steel assembly hubs, control arms and rims:
+
+- Width: 106 inches excluding lumos side units (2.6 m)
+- Height: 43 inches (1.1 m)
+- Length: 220.4 inches (5.6 m)
+
+![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FULL_SCALE_GIF_3.gif)
+
+# Updated Steel chassis:
+
 
 
 # Guide & Code to get Jetson Nano B01 4GB up and running Self Driving using Android Phone as camera (incase your CSI camera port is damaged), or via the same CSI Camera if on board camera is okay. with Jetson nano Ai computer unit as the brain
