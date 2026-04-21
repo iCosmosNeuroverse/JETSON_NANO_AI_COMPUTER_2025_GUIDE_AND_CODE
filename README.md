@@ -4,6 +4,8 @@ https://jamaica-gleaner.com/article/news/20250409/bold-step-towards-future-ready
 Having [a tiered curriculum](https://github.com/icognium/icognium), based on appropriate [complexity levels](https://www.youtube.com/watch?v=AmhZ7OUvyPA), we aim to establish accross schools in JA, Universities, High Schools, Primary Schools and beyond.
 See [Roadmap for core prototype](https://www.youtube.com/watch?v=qt5J7xfK9cM). Beyond Dio, we delve into developing niche physical products imbued with Ai, including books, as well as software only solutions.
 
+![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_CODE_SNIPPET.png]
+
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FULL_SCALE_GIF_5_.gif)
 
 # JETSON_NANO_AI_COMPUTER_2025_GUIDE & CODE FOR SELF DRIVING (TEST WITHOUT SERVOS ATTACHED TO NANO)
