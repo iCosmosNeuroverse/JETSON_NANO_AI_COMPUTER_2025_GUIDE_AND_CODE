@@ -120,7 +120,7 @@ mk command to make swap file > chmod to secure swap file > make it permanent if 
 >>> source env/bin/activate
 ```
 
-Note we won't use Fei's manage.py mod because it includes yolo detection and has no self driving pilot prepared. Feis environment overall, i.e. the prebuilt sd card image, is ideal but the manage.py file is not configured for self driving, only experimental object recognition by human driven nano unit/car.
+Note we won't use Fei's manage.py mod because it includes yolo detection and has no self driving pilot prepared. Feis environment overall, i.e. the prebuilt sd card image, is ideal but the manage.py file is not configured for locomotion based self driving, only experimental object recognition by human driven nano unit/car, which can albeit still be used for SAE level 1 self driving aligned braking at the detection of objects.
 
 You will instead create a new donkeycar app with command below then navigate to the folder. 
 
