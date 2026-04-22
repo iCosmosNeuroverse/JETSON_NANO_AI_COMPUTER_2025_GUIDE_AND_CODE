@@ -47,7 +47,7 @@ Dio Lucciola, my handcrafted hypercar prototype, with steel assembly hubs, rims,
 
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FULL_SCALE_GIF_3.gif)
 
-# Updated Steel chassis:
+# Updated Steel chassis (this will be widened to spec above using custom spacers. The chasis' length is already to spec by default. Initially a differential carrier and chain system, and motor will power the chasis. Next a gasoline and or hyrbrid system, follwoed by a solar system or similar sustainable energy plant):
 
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FULL_SCALE_GIF_6.gif)
 
