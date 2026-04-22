@@ -412,3 +412,9 @@ Instead of consuming single images, modify your manage.py to be similar to muosv
 
 ```
 
+
+# Lucciola Self Driving [Schematic](https://drive.google.com/file/d/1uqUNAczTb8kbS7VjSVYgSPuFNbW6K_MN/view):
+
+![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/schematic.png)
+
+https://www.youtube.com/watch?v=-iEQasruAho
