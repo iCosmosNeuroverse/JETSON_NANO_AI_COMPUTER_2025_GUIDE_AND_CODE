@@ -413,7 +413,9 @@ Instead of consuming single images, modify your manage.py to be similar to muosv
 ```
 
 
-# Lucciola Self Driving [Schematic](https://drive.google.com/file/d/1uqUNAczTb8kbS7VjSVYgSPuFNbW6K_MN/view):
+# Initial Lucciola Self Driving [Schematic](https://drive.google.com/file/d/1uqUNAczTb8kbS7VjSVYgSPuFNbW6K_MN/view):
+
+As noted future schematics may include K24 motor 200+hp or lower (or higher) modified to be controlled by nano unit through PWM route or similar, followed by hybrid and or solar solutions.
 
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/schematic.png)
 
