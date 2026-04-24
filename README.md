@@ -49,6 +49,8 @@ Dio Lucciola, my handcrafted hypercar prototype, with steel assembly hubs, rims,
 
 # Updated Steel chassis (this will be widened to spec above using custom spacers. The chasis' length is already to spec by default. Initially a differential carrier and chain system, and motor will power the chasis. Next a gasoline and or hyrbrid system, follwoed by a solar system or similar sustainable energy plant):
 
+Note: The weels from the temporary modular chassis will be used on the steel chassis. The ones on the steel chassis below have already been returned as it wasn't a part of the chassis purchase package.
+
 ![alt text](https://github.com/iCosmosNeuroverse/JETSON_NANO_AI_COMPUTER_2025_GUIDE_AND_CODE/blob/main/LUCCIOLA_FULL_SCALE_GIF_6.gif)
 
 # Guide & Code to get Jetson Nano B01 4GB up and running Self Driving using Android Phone as camera (incase your CSI camera port is damaged), or via the same CSI Camera if on board camera is okay. with Jetson nano Ai computer unit as the brain
